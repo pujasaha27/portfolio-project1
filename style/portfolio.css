@@ -61,16 +61,18 @@ nav li a{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
-    margin-left: 147px;
+    margin-left: 80px;
 }
 
-
+.nav-option{
+    
+}
 /* banner styles */
 
 .banner{
     display: flex;
     justify-content:space-between ;
-    margin: 0 35px 0 230px;
+    margin: 0 35px 0 150px;
 }
 
 
