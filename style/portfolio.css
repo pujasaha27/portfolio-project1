@@ -15,6 +15,7 @@
     background-position: top left, bottom right;
     background-origin: content-box;
     padding: 38px 0 25px 23px;
+    width: 1233.5px;
     
 }
 
@@ -274,7 +275,7 @@ nav li a{
 
 .footer{
     background-color: #FFF8F3;
-    width: 1600px;
+    width: 1250px;
     height: 780px;
     margin-top: -113px;
     display: flex;
