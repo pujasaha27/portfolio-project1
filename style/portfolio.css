@@ -15,6 +15,7 @@
     background-position: top left, bottom right;
     background-origin: content-box;
     padding: 38px 0 25px 23px;
+    
 }
 
 /* shared styles */
@@ -35,9 +36,30 @@
     font-size: 20px;
     padding: 18px 25px;
     border-style: none;
-    
 }
 
+.btn-secondary{
+    background-color: white;
+    border-color: #FD6E0A;
+    color: #FD6E0A;
+    margin: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 25px;
+    border-style: solid;
+} 
+
+.about-me{
+    background-color: #FFF8F3;
+    width: 1140px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    margin: 130px auto;
+    border-radius: 5px;
+    
+}
 /* nav styles */
 nav{
     display: flex;
@@ -64,9 +86,6 @@ nav li a{
     margin-left: 80px;
 }
 
-.nav-option{
-    
-}
 /* banner styles */
 
 .banner{
@@ -79,21 +98,22 @@ nav li a{
 .banner-greetings{
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 50px;
 }
 
 .banner-title{
     font-size: 85px;
     font-weight: bold;
     color: #181818;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-top: -35px;
 }
 
 .banner-para{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 15px;
     color: #757575;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .banner-content{
@@ -103,4 +123,209 @@ nav li a{
 .banner-pic{
     width: 584px;
     height: 676px;
+}
+
+.about{
+    background-color: #FFFFFF;
+    width: 700px;
+    height: 285px;
+    margin: auto;
+    border-color: #181818;
+    border-style: solid;
+    border-width: 1px;
+}
+.content-one{
+    text-align: center;
+}
+
+.content-one p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
+    padding: 5px 10px;
+}
+.content-one h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: 15px;
+}
+.content-two{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.content-item .head{
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
+}
+.content-item .info{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -15px;
+   
+}
+.content-item{
+    text-align: center;
+    margin: 20px;
+}
+.content{
+    margin: 10px;
+}
+.card{
+    width: 1140px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 130px auto;
+    border-radius: 5px;
+}
+.card-head{
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
+    padding: 5px 10px;
+    text-align: center;
+   
+}
+.card-head p{
+    width: 805px;
+    margin: 0 auto;
+    
+}
+.card-head h2{
+    color: #181818;
+    font-size: 30px;
+}
+.card-division{
+    display: flex;
+    gap: 30px;
+}
+.card-part{
+    width: 170px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 40px;
+    margin-top: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.card-part h2{
+    font-size: 18px;
+    color: #181818;
+    margin: 20px 0px;
+}
+.card-part p{
+    font-size: 16px;
+    color: #757575;
+}
+
+.experience{
+    width: 1140px;
+    height: 850px;
+    margin: 130px auto;
+    
+    
+}
+.experience h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.cv-content{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    width:900px;
+    padding-right: 50px;
+    margin: 80px;
+    
+}
+.cv{
+    margin-left: 450px;
+    margin-top: -60px
+}
+
+.title-ex{
+    color: #474747;
+    font-weight: bold;
+    font-size: 20px;
+}
+.topic{
+    color:#474747 ;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.school{
+    color: #757575;
+   font-weight: 900px;
+    font-size: 17px;
+    margin-top: -15px;
+}
+.details{
+    color:#757575 ;
+    font-size:14px ;
+    font-weight: normal;
+    margin-top: -10px;
+}
+
+.footer{
+    background-color: #FFF8F3;
+    width: 1600px;
+    height: 780px;
+    margin-top: -113px;
+    display: flex;
+}
+
+.footer-col{
+    padding: 100px;
+    padding-left: 150px;
+    width: 550px;
+}
+.footer-col p{
+    color: #474747;
+    font-size: 16px;
+    font-weight: normal;
+}
+.footer-col h3{
+    color: #181818;
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer-pic{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+footer input[type="text"]{
+    display: block;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 24px;
+    border-style: none;
+    padding: 20px;
+}
+footer input[type="email"]{
+    display: block;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 24px;
+    border-style: none;
+    padding: 20px;
+}
+.massege{
+    display: block;
+    border-style: none;
+    padding: 20px;
+    font-size: 13px;
+}
+.form{
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    padding: 10px 10px;
+    font-size: 16px;
 }
